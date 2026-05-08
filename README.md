@@ -30,10 +30,11 @@ Fixes all bugs and inconsistencies from [SingStar Creator v3](https://github.com
 # Roadmap 
 ### In progress
 
-- [ ] **GLOBAL:** Divide BPM & notes when BPM is too high
 - [ ] **GLOBAL:** Drag & Drop songs (TXT & SST2)
+- [ ] **PS2:** Build NTSC discs
+- [x] **GLOBAL:** Scale BPM & notes when BPM is too high
 - [x] **PS3:** Update existing song library via FTP
-- [x] **PS2:** Support NTSC (IAV+IND)
+- [x] **PS2:** Import songs from NTSC discs (IAV+IND)
 
 ### Completed ([v1.3](https://github.com/RavenDS/singstar-toolbox/releases/latest))
 - [x] **GLOBAL:** Extract audio from video (for .TXTs with video only)
