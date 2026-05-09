@@ -1,7 +1,6 @@
 # SingStar Toolbox
-A Custom Disc Creator for SingStar. Create custom SingStar discs with your own songs, **now with PS3 support!**
-
-Fixes all bugs and inconsistencies from [SingStar Creator v3](https://github.com/weathondev/SingstarCreatorTutorial), uses **homemade converters and modules** instead of **stolen PS2 SDK** like SCv3 does.
+A Custom Disc Creator for SingStar. Create custom SingStar discs with your own songs, **now with PS3 + FTP support!**
+<br />Also includes tools for various formats used by SingStar games (**PAK, PKD, IPU, MIB, IAV,** etc..)
 
 **Tutorials/Guide:** [Check out the Wiki](https://github.com/RavenDS/singstar-toolbox/wiki)
 
@@ -10,9 +9,9 @@ Fixes all bugs and inconsistencies from [SingStar Creator v3](https://github.com
 <img src="Singstar-Toolbox-1.1.png" width=50% height=50%>
 
 ### Main Features
-- Import & convert [Performous](https://github.com/performous/performous)/UltraStar songs (txt)
+- Import & convert UltraStar songs (txt)
+- Import songs from official SingStar discs to use in your own (PS2/PS3)
 - Convert audio & video to proprietary SingStar format (IPU + MIB)
-- Export songs from other SingStar discs to use in your own
 - Build an ISO compatible with emulators & real hardware (PS2/PS3)
 
 ### QoL Features
@@ -22,6 +21,7 @@ Fixes all bugs and inconsistencies from [SingStar Creator v3](https://github.com
 - Entirely rewritten TXT to XML converter
 - Support for regular, duet, rap songs
 - Fix text encoding automatically
+- & much more..
 
 ### Setup & Requirements
 - #### Download the latest version of ffmpeg.exe <a href="https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z">(direct link for Win10)</a> and place it in the same folder as Singstar Toolbox.
@@ -29,26 +29,25 @@ Fixes all bugs and inconsistencies from [SingStar Creator v3](https://github.com
 
 # Roadmap 
 ### In progress
-
-- [ ] **GLOBAL:** Drag & Drop songs (TXT & SST2)
+- [ ] **GLOBAL:** Drag & Drop songs (TXT & SSTP)
 - [ ] **PS2:** Build NTSC discs
-- [x] **GLOBAL:** Scale BPM & notes when BPM is too high
-- [x] **PS3:** Update existing song library via FTP
-- [x] **PS2:** Import songs from NTSC discs (IAV+IND)
 
-### Completed ([v1.3](https://github.com/RavenDS/singstar-toolbox/releases/latest))
+### Completed ([v1.4](https://github.com/RavenDS/singstar-toolbox/releases/latest))
 - [x] **GLOBAL:** Extract audio from video (for .TXTs with video only)
 - [x] **GLOBAL:** Convert PS2 songs to PS3
 - [x] **GLOBAL:** Convert PS3 multi-channel audio to stereo for PS2 (no loss)
 - [x] **GLOBAL:** Convert PS3 songs to PS2
 - [x] **GLOBAL:** Edit videos to include time gap
+- [x] **GLOBAL:** Scale BPM & notes when BPM is too high
 - [x] **ISO:** ISO Rebuilding
 - [X] **PS3:** PS3 Full Support
 - [x] **PS3:** Export/Build PS3 Data
 - [x] **PS3:** Auto-decrypt supported ISOs when needed
+- [x] **PS3:** Update existing song library via FTP
 - [x] **PS3:** NTSC video support
 - [x] **PS2:** PAK file Unpacking/Repacking
 - [x] **PS2:** M2V to IPU conversion
+- [x] **PS2:** Import songs from NTSC discs (IAV+IND)
 - [x] **PS2:** IPU swizzling
 - [x] **PS2:** 99% codec compatibility
 - [x] **PS2:** Audio Encode to ADPCM
@@ -77,5 +76,5 @@ Fixes all bugs and inconsistencies from [SingStar Creator v3](https://github.com
 - Special thanks to [@locastan](https://github.com/locastan) for his help
 
 ## Notes
-It is possible to add more than 100 songs to a single disc, however it might cause unexpected behaviour in-game.
+It is possible to add more than 100 songs to a single PS2 disc, however it might cause unexpected behaviour in-game.
 <br />**PS3 isn't affected by this.**
