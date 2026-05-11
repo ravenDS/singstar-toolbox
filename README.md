@@ -62,6 +62,10 @@ A Custom Disc Creator for SingStar. Create custom SingStar discs with your own s
 - **Edit PS2 boot logos:** Users can edit that from DiscData folder
 - **Medley Editor:** Would require a lot of user input. Not cancelled but very low priority.
 
+# Source code
+Source code is available as multiple modules and tools that will be published gradually.
+- [IPUenc](https://github.com/RavenDS/IPUenc) (IPU<->M2V video)
+
 # Credits
 - Chris [(@christphen)](https://github.com/christphen) joined the project as a collaborator
 - <a href="https://ffmpeg.org/">ffmpeg</a>
