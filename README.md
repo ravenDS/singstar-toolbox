@@ -1,6 +1,9 @@
 # SingStar Toolbox
-A Custom Disc Creator for SingStar. Create custom SingStar discs with your own songs, **now with PS3 + FTP support!**
-<br />Also includes tools for various formats used by SingStar games (**PAK, PKD, IPU, MIB, IAV,** etc..)
+A Custom Disc Creator for SingStar. 
+
+Combine **existing SingStar discs**, create **custom discs** with your own songs, **now with PS3 + FTP support!**
+
+Also includes tools for various formats used by SingStar games (**PAK, PKD, PKF, IPU, MIB, IAV, CHC** etc..)
 
 **Tutorials/Guide:** [Check out the Wiki](https://github.com/RavenDS/singstar-toolbox/wiki)
 
