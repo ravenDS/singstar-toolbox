@@ -27,13 +27,16 @@ Also includes tools for various formats used by SingStar games (**PAK, PKD, PKF,
 - & much more..
 
 ### Setup & Requirements
+- [Getting started (recommended)](https://github.com/RavenDS/singstar-toolbox/wiki/Getting-Started-(Setup-&-Requirements))
 - #### Download the latest version of ffmpeg.exe <a href="https://www.gyan.dev/ffmpeg/builds/ffmpeg-git-full.7z">(direct link for Win10)</a> and place it in the same folder as Singstar Toolbox.
 - .NET 8.0 Desktop Runtime
 
 # Roadmap 
 ### In progress
 - [ ] **GLOBAL:** Drag & Drop songs (TXT & SSTP)
-- [ ] **PS2:** Build NTSC discs
+- [ ] **PS4:** Import songs from SingStar PS4
+- [ ] **PS2:** Build NTSC PS2 discs
+- [x] **GLOBAL:** Import/Convert SING-IT to SingStar
 
 ### Completed ([v1.4](https://github.com/RavenDS/singstar-toolbox/releases/latest))
 - [x] **GLOBAL:** Extract audio from video (for .TXTs with video only)
@@ -63,7 +66,7 @@ Also includes tools for various formats used by SingStar games (**PAK, PKD, PKF,
 ### Scrapped/Cancelled
 - **yt-dlp support:** Many UltraStar managers already handle this
 - **Edit PS2 boot logos:** Users can edit that from DiscData folder
-- **Medley Editor:** Would require a lot of user input. Not cancelled but very low priority.
+- **Medley Editor:** Would require a lot of user input. Not cancelled but very low priority. Medleys are currently automated.
 
 # Source code
 Source code is available as multiple modules and tools that will be published gradually.
