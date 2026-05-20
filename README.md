@@ -34,13 +34,13 @@ Also includes tools for various formats used by SingStar games (**PAK, PKD, PKF,
 # Roadmap 
 ### In progress
 - [ ] **GLOBAL:** Drag & Drop songs (TXT & SSTP)
+- [ ] **GLOBAL:** Auto-create Solo version from Duets
+- [ ] **GLOBAL:** Medley Editor
 - [ ] **PS4:** Import songs from SingStar PS4
 - [ ] **PS2:** Build NTSC PS2 discs
-- [ ] **PS3:** Update local library
-- [ ] **GLOBAL:** Auto-create Solo version from Duets
-- [x] **GLOBAL:** Import/Convert SING-IT to SingStar
 
-### Completed ([v1.4](https://github.com/RavenDS/singstar-toolbox/releases/latest))
+### Completed ([v1.5](https://github.com/RavenDS/singstar-toolbox/releases/latest))
+- [x] **GLOBAL:** Import & convert songs from Disney Sing-It! (PS2)
 - [x] **GLOBAL:** Extract audio from video (for .TXTs with video only)
 - [x] **GLOBAL:** Convert PS2 songs to PS3
 - [x] **GLOBAL:** Convert PS3 multi-channel audio to stereo for PS2 (no loss)
@@ -52,6 +52,7 @@ Also includes tools for various formats used by SingStar games (**PAK, PKD, PKF,
 - [x] **PS3:** Export/Build PS3 Data
 - [x] **PS3:** Auto-decrypt supported ISOs when needed
 - [x] **PS3:** Update existing song library via FTP
+- [x] **PS3:** Update existing song library locally
 - [x] **PS3:** NTSC video support
 - [x] **PS2:** PAK file Unpacking/Repacking
 - [x] **PS2:** M2V to IPU conversion
@@ -68,7 +69,6 @@ Also includes tools for various formats used by SingStar games (**PAK, PKD, PKF,
 ### Scrapped/Cancelled
 - **yt-dlp support:** Many UltraStar managers already handle this.
 - **Edit PS2 boot logos:** Users can edit that from DiscData folder.
-- **Medley Editor:** Would require a lot of user input. Not cancelled but very low priority. Medleys are currently automated.
 
 # Source code
 Source code is available as multiple modules and tools that will be published gradually.
@@ -81,9 +81,9 @@ Source code is available as multiple modules and tools that will be published gr
 - [NAudio](https://github.com/naudio/NAudio)
 - [Ude.NetStandard](https://github.com/errepi/ude)
 - [nQuant](https://www.nuget.org/packages/nQuant)
+- [FluentFTP](https://github.com/robinrodricks/FluentFTP)
 - [ss_cover.cc](https://github.com/performous/performous-tools/blob/master/ss_cover.cc) *(TX2 to BMP conversion)*
 - [scee-london](https://github.com/EdnessP/scee-london) *(PKD unpacking)*
-- [BouncyCastle](https://www.bouncycastle.org/download/bouncy-castle-c/) *(Whirlpool Hash)*
 - Holger Kuhn (hawkear@gmx.de) for his work on SingStar overall
 - Special thanks to [@locastan](https://github.com/locastan) for his help
 
