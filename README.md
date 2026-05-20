@@ -36,6 +36,8 @@ Also includes tools for various formats used by SingStar games (**PAK, PKD, PKF,
 - [ ] **GLOBAL:** Drag & Drop songs (TXT & SSTP)
 - [ ] **PS4:** Import songs from SingStar PS4
 - [ ] **PS2:** Build NTSC PS2 discs
+- [ ] **PS3:** Update local library
+- [ ] **GLOBAL:** Auto-create Solo version from Duets
 - [x] **GLOBAL:** Import/Convert SING-IT to SingStar
 
 ### Completed ([v1.4](https://github.com/RavenDS/singstar-toolbox/releases/latest))
@@ -64,8 +66,8 @@ Also includes tools for various formats used by SingStar games (**PAK, PKD, PKF,
 - [x] **PS2:** Multiple Language support (English, French, German, Italian)
 
 ### Scrapped/Cancelled
-- **yt-dlp support:** Many UltraStar managers already handle this
-- **Edit PS2 boot logos:** Users can edit that from DiscData folder
+- **yt-dlp support:** Many UltraStar managers already handle this.
+- **Edit PS2 boot logos:** Users can edit that from DiscData folder.
 - **Medley Editor:** Would require a lot of user input. Not cancelled but very low priority. Medleys are currently automated.
 
 # Source code
