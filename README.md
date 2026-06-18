@@ -7,7 +7,7 @@ Also includes tools for various formats used by SingStar games (**PAK, PKD, PKF,
 
 **Tutorials/Guide:** [Check out the Wiki](https://github.com/RavenDS/singstar-toolbox/wiki)
 
-**Join the Discord server for help:** [https://discord.gg/jNet59FPVz](https://discord.gg/jNet59FPVz)
+**Join us on Discord:** [https://discord.gg/jNet59FPVz](https://discord.gg/jNet59FPVz)
 
 <img src="Singstar-Toolbox-1.1.png" width=50% height=50%>
 
@@ -36,8 +36,10 @@ Also includes tools for various formats used by SingStar games (**PAK, PKD, PKF,
 - [ ] **GLOBAL:** Drag & Drop songs (TXT & SSTP)
 - [ ] **GLOBAL:** Auto-create Solo version from Duets
 - [ ] **GLOBAL:** Medley Editor
-- [ ] **PS4:** Import songs from SingStar PS4
-- [ ] **PS2:** Build NTSC PS2 discs
+- [x] **PS4:** Import songs from **SingStar PS4**
+- [x] **PS3:** Support **SingStar App**
+- [x] **PS3:** Support **Ultimate Party** (latest UI)
+
 
 ### Completed ([v1.5](https://github.com/RavenDS/singstar-toolbox/releases/latest))
 - [x] **GLOBAL:** Import & convert songs from Disney Sing-It! (PS2)
