@@ -32,14 +32,8 @@ Also includes tools for various formats used by SingStar games (**PAK, PKD, PKF,
 - .NET 8.0 Desktop Runtime
 
 # Roadmap 
-### In progress
-- [ ] **GLOBAL:** Drag & Drop songs (TXT & SSTP)
-- [ ] **GLOBAL:** Auto-create Solo version from Duets
-- [ ] **GLOBAL:** Medley Editor
-- [x] **PS4:** Import songs from **SingStar PS4**
 
-
-### Completed ([v1.5](https://github.com/RavenDS/singstar-toolbox/releases/latest))
+### Completed ([v1.6](https://github.com/RavenDS/singstar-toolbox/releases/latest))
 - [x] **GLOBAL:** Import & convert songs from Disney Sing-It! (PS2)
 - [x] **GLOBAL:** Extract audio from video (for .TXTs with video only)
 - [x] **GLOBAL:** Convert PS2 songs to PS3
