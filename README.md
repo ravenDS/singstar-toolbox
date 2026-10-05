@@ -72,7 +72,7 @@ Source code is available as multiple modules and tools that will be published gr
 - [IPUenc](https://github.com/RavenDS/IPUenc) (IPU<->M2V video)
 
 # Credits
-- Chris [(@christphen)](https://github.com/christphen) joined the project as a collaborator
+- Chris [(@christphen)](https://github.com/christphen) is now the only maintainer of this project
 - <a href="https://ffmpeg.org/">ffmpeg</a>
 - [DiscUtils.Iso9660](https://github.com/DiscUtils/DiscUtils)
 - [NAudio](https://github.com/naudio/NAudio)
